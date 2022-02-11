@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+    position: relative;
 }
 
 .header {
@@ -33,4 +34,12 @@
 
 .controlColumn {
     max-width: 50%;
+}
+
+.background {
+    position: fixed;
+    background-color: hsl(195deg, 20%, 86%);
+    bottom: 0;
+    height: 40%;
+    width: 100%;
 }
