@@ -1,2 +1,9 @@
 .buttonRow {
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    .buttonRow::-webkit-scrollbar {
+        display: none;
+    }
 }
